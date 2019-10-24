@@ -1,0 +1,11 @@
+##@author: Felipe Mantovani
+
+
+DELIMITER //
+
+CREATE PROCEDURE hello_world()
+BEGIN
+	SELECT 'HELLO WORLD FROM MARCELUS'; 
+END //
+
+DELIMITER ;
