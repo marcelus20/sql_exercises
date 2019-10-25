@@ -1,0 +1,64 @@
+Exercises
+Part 1
+1. Create a procedure HelloWorld that displays the character string “Hello, world!”.
+Demonstrate how you would call the procedure and display the result.
+
+2. Create a stored procedure addup1 that returns the sum of two integers a and b via a SELECT
+statement. Show how you would use the procedure to add up 4 and 5 and display the result.
+
+3. Create a stored procedure addup2 that sums two integer parameters a and b and returns the
+result using a parameter c. Demonstrate how would call the procedure to add up 4 and 5 and
+display the result.
+
+4. Create a stored function addup3 that returns the sum of two integers a and b. Show how you
+would invoke the function to add up the numbers 4 and 5 and display the result.
+
+
+
+
+Part 2
+5. Create a stored procedure difference1 that returns the character string“negative”,“positive”
+or“equal” if the difference between two integers a and b (subtract b from a) is negative,
+positive or zero. The procedure should employ an IF statement to accomplish this.
+
+6. Create a stored procedure difference2 that returns the character string“negative”,“positive”
+or“equal” if the difference between two integers a and b is negative, positive or zero. The
+procedure should use a CASE statement to accomplish this.
+
+7. Create a stored procedure addTax1 that takes a character string country and a decimal value
+price and adds 10 % to the price if country is “USA”, 17.5 % if the country is “Canada” and 23 %
+otherwise. The procedure should employ an IF statement to accomplish this.
+
+
+
+
+Exercises
+Part 3
+8. Create a stored procedure addTax2 that takes a character string country and a decimal value
+price and adds 10 % to the price if country is “USA”, 17.5 % if the country is “Canada” and 23 %
+otherwise. The procedure should use a simple CASE statement to accomplish this.
+
+9. Create a stored procedure addTax3 that takes a character string country and a decimal value
+price and adds 10 % to the price if country is “USA”, 17.5 % if the country is “Canada” and 23 %
+otherwise. The procedure should make use of a searched CASE statement to accomplish this.
+
+10. Create a stored procedure called power1 that takes two integers x and n and raises x to the
+nth power by multiplying x by itself n times. The procedure should employ a WHILE loop to
+accomplish this. You can assume that n > 0.
+
+
+
+
+
+Part 4
+11. Create a stored procedure called power2 that takes two integers x and n and raises x to the
+nth power by multiplying x with itself n times. The procedure should use a REPEAT loop to
+accomplish this. You can assume that n > 1.
+
+12. Create a stored procedure called power3 that takes two integers x and n and raises x to the
+nth power by multiplying x with itself n times. The procedure should use a LOOP loop to
+accomplish this. You can assume that n > 0.
+
+13. Using the Sakila database, create a stored procedure totalPayments that returns the total
+payments made for a given customer number. Your stored procedure should use only a
+SELECT statement to arrive at the value.
